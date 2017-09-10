@@ -1,50 +1,15 @@
 # RestaurantRecommendationSystem
 This System is using R&amp;C dataset (Source : UCI Repository).This project focuses more on data analysis and data normalization.
 
-Original Dataset:
+By analysis of dataset files with the use of R & Excel, preprocessed csv files are created with reduced dimension data. 
 
-Files, instances and attributes 
-Number of Files: 9 
+These pre processed files are mapped with ratings of the places and these mapped files are used for the generating recommendations.
 
-Restaurants 
-1 chefmozaccepts.csv  attributes: Instances: 
-2 chefmozcuisine.csv attributes: Instances:
-3 chefmozhours4.csv attributes: Instances:
-4 chefmozparking.csv attributes: Instances:
-5 geoplaces2.csv attributes: Instances:
+Biggest challenge for this project is "Cold Start" Problem. 
+Cold Start problem occurs when rating of the users are less compared to total number of places and attributes.
 
-Consumers 
-6 usercuisine.csv attributes: Instances:
-7 userpayment.csv attributes: Instances:
-8 userprofile.csv attributes: Instances:
-
-User-Item-Rating 
-9 rating_final.csv attributes: Instances:
-
-Normalized Dataset:
-
-1 consumerprofile.csv attributes: Instances:
-2 cuisine_intersects_ratings.csv attributes: Instances:
-3 geoplace.csv attributes: Instances:
-4 paymentplace_intersetcs_rating.csv attributes: Instances:
-5 placecuisine.csv attributes: Instances:
-6 placeparking.csv attributes: Instances:
-7 placepayment.csv attributes: Instances:
-8 ratings_only.csv attributes: Instances:
-
-Generated Files (Dynamic according to input) to Recommend user Restaurant :
-
-1 maping_of_rating_places.csv attributes: Instances:
-2 placedistance_with_attributes.csv attributes: Instances:
-3 places.csv attributes: Instances:
-4 rating.csv attributes: Instances:
-5 increased_rating.csv attributes: Instances:
-6 user_place_distance.csv attributes: Instances:
-7 users.csv attributes: Instances:
-8 user_places.csv attributes: Instances:
-
-
-
+These project is built purely using core JAVA.
+No in built library of machine learning algorithm is used clean the data, analyze the data or for generating recommendation.
 
 
 
